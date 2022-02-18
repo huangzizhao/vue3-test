@@ -1,17 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <columnList :info="info" />
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+  import { reactive } from 'vue'
+  import columnList from './components/columnList.vue'
+  const info = reactive({
+    id: 6,
+    title: "allen",
+    description: "hahaha"
+  })
 </script>
 
 <style>

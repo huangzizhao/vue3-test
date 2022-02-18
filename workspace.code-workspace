@@ -1,0 +1,32 @@
+{
+	"folders": [
+    {
+      "path": "../phlego"
+    },
+    {
+      "path": "../wdy_sdk_jgj_pea_h5"
+    },
+    {
+      "path": "../uni_oloan"
+    },
+    {
+      "path": "../new_h5"
+    },
+    {
+      "path": "../luzhangfang-h5"
+    },
+    {
+      "path": "../o2o_sdk_h5_jgj"
+    },
+    {
+      "path": "../wdy_sdk_jgj"
+    },
+    {
+      "path": "../luzhangfang-ai"
+    },
+    {
+      "path": "../oloan_ai_h5"
+    }
+  ],
+  "settings": {}
+}
